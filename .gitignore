@@ -130,6 +130,8 @@ dist
 .pnp.*
 
 # others
+.gitignore
 buildpush*.*
+package-lock.json
 config.json
 .DS_*
