@@ -1,6 +1,6 @@
 # roon-extension-yamaha
 
-roon-extension-yamaha is a extension to Roon to support for Yamaha receivers to be controlled from within Roon. The extension can control zone, input, volume, mute and standby.
+roon-extension-yamaha is a extension to Roon to support for Yamaha receivers to be controlled within Roon. The extension can control zone, input, volume, mute and standby.
 
 ![Screenshot in roon](documentation/images/roon_settings50.png)</br>
 *Screenshot of roon extension settings*
