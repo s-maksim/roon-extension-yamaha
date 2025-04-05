@@ -46,7 +46,7 @@ Start the docker by running:
 ```
 docker run -d \
   --name your-roon-extension-yamaha-name \
-  --volume /<local_folder>/<path>/roon-extension-yamaha/:app\
+  --volume /<local_folder>/<path>/roon-extension-yamaha:app\
   --env ID="MyID" \
   --network=host \
   --restart=always \
