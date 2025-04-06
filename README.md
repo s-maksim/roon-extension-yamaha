@@ -49,7 +49,7 @@ docker run -d \
   --volume /<local_folder>/<path>/roon-extension-yamaha:app\
   --env ID="MyID" \
   --network=host \
-  --restart=always \
+  --restart=unless-stopped \
   42henrik/roon-extension-yamaha:stable 
 ```
 
