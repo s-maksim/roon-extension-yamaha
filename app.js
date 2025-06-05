@@ -96,7 +96,7 @@ function makelayout(settings) {
     };
 
     if (!settings.zone_input_list[key]["input_list"].find(i1 => i1.value === settings.input)) {
-        settings.input = settings.zone_input_list[key]["input_list"][0].value;
+        settings.input = yamaha.default_input;
     }
     settings.inputName = (settings.zone_input_list[key]["input_list"].find(i1 => i1.value === settings.input)).title;
 
